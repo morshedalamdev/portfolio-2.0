@@ -39,16 +39,16 @@ export default function RootLayout() {
                     </nav>
                     <button onClick={() => { show ? setShow(false) : setShow(true) }} className="lg:hidden block"><img src={menuIcon} alt="" className="xs:scale-100 scale-90" /></button>
                </header>
-
+ß
                <main className="relative">
                     <Outlet />
                </main>
 
                <footer className="sl-container text-center md:pb-10 xs:pb-6 pb-4">
                     <ul className="wow fadeIn flex flex-wrap justify-center sm:gap-4 gap-3 xs:mb-5 mb-3">
-                         <li><a href="https://www.linkedin.com/in/mamorshedalam" className="block xs:w-10 w-8 xs:h-10 h-8 rounded-full border-2 border-sky-50 xs:p-2.5 p-1.5 hover:bg-neutral-700 hover:border-neutral-700 sl-animated-xl" target="_blank"><img src={linkedinIcon} alt="" className="h-full" /></a></li>
-                         <li><a href="https://github.com/mamorshedalam" className="block xs:w-10 w-8 xs:h-10 h-8 rounded-full border-2 border-sky-50 xs:p-2.5 p-1.5 hover:bg-neutral-700 hover:border-neutral-700 sl-animated-xl" target="_blank"><img src={githubIcon} alt="" className="h-full" /></a></li>
-                         <li><a href="mailto:mamorshedalam@outlook.com" className="block xs:w-10 w-8 xs:h-10 h-8 rounded-full border-2 border-sky-50 xs:p-2.5 p-1.5 hover:bg-neutral-700 hover:border-neutral-700 sl-animated-xl" target="_blank"><img src={mailIcon} alt="" className="h-full" /></a></li>
+                         <li><a href="https://www.linkedin.com/in/morshedalamdev" className="block xs:w-10 w-8 xs:h-10 h-8 rounded-full border-2 border-sky-50 xs:p-2.5 p-1.5 hover:bg-neutral-700 hover:border-neutral-700 sl-animated-xl" target="_blank"><img src={linkedinIcon} alt="" className="h-full" /></a></li>
+                         <li><a href="https://github.com/morshedalamdev" className="block xs:w-10 w-8 xs:h-10 h-8 rounded-full border-2 border-sky-50 xs:p-2.5 p-1.5 hover:bg-neutral-700 hover:border-neutral-700 sl-animated-xl" target="_blank"><img src={githubIcon} alt="" className="h-full" /></a></li>
+                         <li><a href="mailto:morshedalamdev@outlook.com" className="block xs:w-10 w-8 xs:h-10 h-8 rounded-full border-2 border-sky-50 xs:p-2.5 p-1.5 hover:bg-neutral-700 hover:border-neutral-700 sl-animated-xl" target="_blank"><img src={mailIcon} alt="" className="h-full" /></a></li>
                     </ul>
                     <a href="/morshed_alam_resume.pdf" className="opacity-70 capitalize xs:mb-2 mb-1 hover:text-[#e31c25] sl-animated-xl">download resume</a>
                     <div className="wow fadeIn flex flex-wrap justify-center gap-3">

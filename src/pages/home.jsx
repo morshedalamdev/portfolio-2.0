@@ -19,7 +19,6 @@ import msIcon from "/icons/ms.svg";
 import aiIcon from "/icons/ai.svg";
 import psIcon from "/icons/ps.svg";
 import lrIcon from "/icons/lr.svg";
-import filmoraIcon from "/icons/filmora.svg";
 import Collapse from "../components/collapse";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -56,7 +55,6 @@ export default function Home() {
           { name: "illustrator", icon: aiIcon },
           { name: "Photoshop", icon: psIcon },
           { name: "Lightroom", icon: lrIcon },
-          { name: "Filmora", icon: filmoraIcon }
      ];
      const experience = [
           { designation: "Web Developer", company: "Fiverr", website: "fiverr.com/tech_infiny", duration: "2021 - Present", location: "Remote", keyword: ["JavaScript", "TypeScript", "Next", "React", "Alpine", "Node", "Firebase", "TailwindCSS", "MongoDB", "Sanity", "Figma"], description: "I have been working as a freelance developer since 2019 locally. After leaving Spinner Tech, I start working as a freelance developer on Fiverr. And get chance to work on various projects with various developers." },
@@ -121,7 +119,7 @@ export default function Home() {
                          <div className="wow fadeInUp sm:w-2/3 text-center mx-auto space-y-2">
                               <p>The main area of expertise is Website Development (Client/Server side).</p>
                               <p>I'm well-versed in JavaScript and TypeScript and worked extensively with popular frameworks such as Next/React and Alpine JS. I have also had a great deal of experience working with Node and used databases like MongoDB and Firebase.</p>
-                              <p>Visit my <a href="https://www.linkedin.com/in/mamorshedalam" className="text-[#e31c25] hover:underline sl-animated-xl" target="_blank">Linkedin</a> for more details.</p>
+                              <p>Visit my <a href="https://www.linkedin.com/in/morshedalamdev" className="text-[#e31c25] hover:underline sl-animated-xl" target="_blank">Linkedin</a> for more details.</p>
                          </div>
                          <div className="md:space-y-6">
                               <ul className="wow fadeInLeft flex flex-wrap justify-center mb-4">
