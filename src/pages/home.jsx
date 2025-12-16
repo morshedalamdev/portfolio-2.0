@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import heroBg from "/images/hero-bg.png";
 import banner1 from "/images/banner-1.png";
 import banner2 from "/images/banner-2.png";
@@ -19,9 +21,8 @@ import msIcon from "/icons/ms.svg";
 import aiIcon from "/icons/ai.svg";
 import psIcon from "/icons/ps.svg";
 import lrIcon from "/icons/lr.svg";
+import postgresqlIcon from "/icons/postgresql.png";
 import Collapse from "../components/collapse";
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
           { name: "Alpine", icon: alpineIcon },
           { name: "Node", icon: nodeIcon },
           { name: "Express", icon: expressIcon },
+          { name: "PostgreSQL", icon: postgresqlIcon },
           { name: "MongoDB", icon: mongodbIcon },
           { name: "Sanity", icon: sanityIcon },
           { name: "Firebase", icon: firebaseIcon },
@@ -101,7 +103,7 @@ export default function Home() {
                     <div className="sl-container grid md:grid-cols-2 grid-cols-1 items-center xl:gap-6 xs:gap-4 gap-2">
                          <div className="wow fadeInLeft">
                               <h1 className="font-bold tracking-wide xl:text-6xl sm:text-4xl xs:text-3xl text-2xl sm:mb-4 mb-2">Hi, I'm Morshed Alam <br /> Web Developer</h1>
-                              <p className="xl:text-xl sm:text-lg text-[#e31c25] cursor-pointer">// <span className="text-sky-50 opacity-70 hover:opacity-100">Full-Stack Developer</span> // <span className="text-sky-50 opacity-70 hover:opacity-100">Python Fan</span> // <span className="text-sky-50 opacity-70 hover:opacity-100">JavaScript/TypeScript Expert</span></p>
+                              <p className="xl:text-xl sm:text-lg text-[#e31c25] cursor-pointer">// <span className="text-sky-50 opacity-70 hover:opacity-100">Full-Stack Developer</span> // <span className="text-sky-50 opacity-70 hover:opacity-100">Tech Learner</span> // <span className="text-sky-50 opacity-70 hover:opacity-100">JavaScript/TypeScript Expert</span></p>
                          </div>
                          <div className="wow fadeInRight sm:space-y-4 space-y-2">
                               <p>I'm working as a Web Developer since 2019. I have developed a strong understanding of Web Development and related Technology. I always tried to think out of the box & bring something creative through Hard Work. And love working with Team.</p>
@@ -118,7 +120,7 @@ export default function Home() {
                          </div>
                          <div className="wow fadeInUp sm:w-2/3 text-center mx-auto space-y-2">
                               <p>The main area of expertise is Website Development (Client/Server side).</p>
-                              <p>I'm well-versed in JavaScript and TypeScript and worked extensively with popular frameworks such as Next/React and Alpine JS. I have also had a great deal of experience working with Node and used databases like MongoDB and Firebase.</p>
+                              <p>I'm well-versed in JavaScript and TypeScript and worked extensively with popular frameworks Next/React. I have also had a great deal of experience working with Node/Express and used databases like Postgre SQL, MongoDB and Firebase.</p>
                               <p>Visit my <a href="https://www.linkedin.com/in/morshedalamdev" className="text-[#e31c25] hover:underline sl-animated-xl" target="_blank">Linkedin</a> for more details.</p>
                          </div>
                          <div className="md:space-y-6">
