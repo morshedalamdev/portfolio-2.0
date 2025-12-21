@@ -1,14 +1,67 @@
 [
   {
-    "projectID": 2025022601,
+    "projectID": 2025022615,
+    "keyword": "fullStack",
+    "name": "WeSplit",
+    "client": "school project",
+    "description": "The WeSplit project addresses a common yet non‑trivial problem: managing shared expenses fairly and transparently within groups. By modelling users, groups, memberships, expenses, and settlements as first‑class entities, and by enforcing role‑based access control (RBAC) at the group level, the system provides a structured way to answer a simple question: “who owes whom, and how much?”. From a functional perspective, WeSplit allows users to create and join multiple groups, record expenses with flexible split methods, and capture settlements that gradually clear outstanding balances. The multi‑tenant design ensures that a single user can participate in several contexts—such as trips, households, or clubs—while holding different roles in each. This, combined with clear balance computation and history views, reduces the friction and ambiguity usually associated with reconciling shared costs.",
+    "contribution": "",
+    "technology": [
+      "TypeScript",
+      "Next",
+      "React",
+      "MongoDB",
+      "Tailwind CSS",
+      "ShadCN"
+    ],
+    "category": "Full-Stack Development",
+    "sourceCode": "https://github.com/morshedalamdev/wesplit",
+    "liveLink": "wesplit-app.vercel.app",
+    "thumbnail": "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287758/project/wesplit/group_vltpqi.png",
+    "screenshot": [
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287758/project/wesplit/dashboard_xuijxp.png",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287758/project/wesplit/group_vltpqi.png",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287758/project/wesplit/membership_je0eqp.png",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287758/project/wesplit/add_x4cyrn.png",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287758/project/wesplit/settings_a07fs0.png"
+    ]
+  },
+  {
+    "projectID": 2025022613,
+    "keyword": "app",
+    "name": "Text Compression App",
+    "client": "school project",
+    "description": "The Huffman Text Compression application implements a text compression and decompression system using Huffman coding in a modern React Native app. The Huffman algorithm provides a compact, prefix-free encoding of input characters based on frequency. By integrating this algorithm into an interactive mobile UI, the app allows users to see the entire compression process: from character frequencies and code generation to encoding, decoding, and ratio calculation. The decoded output always matches the original input, validating lossless compression. Using Expo’s cross-platform libraries simplified file saving and sharing on mobile devices. ",
+    "contribution": "",
+    "technology": ["TypeScript", "React Native", "Expo", "Native Wind"],
+    "category": "iOS/Android App",
+    "sourceCode": "https://github.com/morshedalamdev/huffmanTextCompression",
+    "liveLink": "",
+    "thumbnail": "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287831/project/huffman-app/Picture1_y0rpnd.jpg",
+    "screenshot": [
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287831/project/huffman-app/Picture1_y0rpnd.jpg",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287831/project/huffman-app/Picture4_dgsvd4.png",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287831/project/huffman-app/Picture3_av5wym.png",
+      "https://res.cloudinary.com/mamorshedalam/image/upload/v1766287831/project/huffman-app/Picture2_am9leu.png"
+    ]
+  },
+  {
+    "projectID": 2025022612,
     "keyword": "fullStack",
     "name": "Blog Site",
     "client": "own project",
     "description": "Blog Site is an idea-sharing platform designed for new startups. Users can create an account using GitHub and pitch their startup ideas to others. They can also explore a timeline of pitches shared by other users and view the profiles of those who have submitted pitches. This project utilizes Static Site Generation (SSG) and Streaming Server Rendering (SSR) to enhance performance and user experience.",
     "contribution": "I build this project for practice purposes. I have learned Next/React on this project. ",
-    "technology": ["TypeScript", "Next", "React", "Sanity", "Tailwind CSS", "ShadCN"],
+    "technology": [
+      "TypeScript",
+      "Next",
+      "React",
+      "Sanity",
+      "Tailwind CSS",
+      "ShadCN"
+    ],
     "category": "Full-Stack Development",
-    "sourceCode": "https://github.com/mamorshedalam/blog_site",
+    "sourceCode": "https://github.com/morshedalamdev/blog_site",
     "liveLink": "https://blog-site-mamorshedalams-projects.vercel.app/",
     "thumbnail": "https://res.cloudinary.com/mamorshedalam/image/upload/v1739031044/project/blog-site/rb7peycpwmcxiz9lfiys.jpg",
     "screenshot": [
@@ -19,7 +72,7 @@
     ]
   },
   {
-    "projectID": 2025022602,
+    "projectID": 2025022611,
     "keyword": "fullStack",
     "name": "Infiny E-commerce",
     "client": "own project",
@@ -27,7 +80,7 @@
     "contribution": "I build this project for practice purposes. I have learned Firebase Real-Time Database on this project. ",
     "technology": ["React", "Firebase", "Tailwind CSS"],
     "category": "Full-Stack Development",
-    "sourceCode": "https://github.com/mamorshedalam/infiny-ecommerce",
+    "sourceCode": "https://github.com/morshedalamdev/infiny-ecommerce",
     "liveLink": "https://infiny-ecommerce.netlify.app/",
     "thumbnail": "https://res.cloudinary.com/mamorshedalam/image/upload/v1691491713/project/infiny-ecommerce/083536-iwwxad.png",
     "screenshot": [
@@ -40,7 +93,7 @@
     ]
   },
   {
-    "projectID": 2025022603,
+    "projectID": 2025022610,
     "keyword": "fullStack",
     "name": "Darya.ai",
     "client": "Darya.ai",
@@ -59,13 +112,20 @@
     ]
   },
   {
-    "projectID": 2025022604,
+    "projectID": 2025022609,
     "keyword": "fullStack",
     "name": "Express Kitchens and Bath",
     "client": "expresskitchensandbath.com",
     "description": "Express Kitchens and Bath is a kitchen and bath remodeling company. They provide a wide range of services, including kitchen and bath remodeling, custom cabinetry, and countertop installation. The website showcases their services and portfolio, and allows users to request a free estimate.",
     "contribution": "I build the front-end of the website. I have learned the integration of Sanity CMS on this project.",
-    "technology": ["TypeScript", "Next", "React", "Sanity", "Tailwind CSS", "ShadCN"],
+    "technology": [
+      "TypeScript",
+      "Next",
+      "React",
+      "Sanity",
+      "Tailwind CSS",
+      "ShadCN"
+    ],
     "category": "Full-Stack Development",
     "sourceCode": "",
     "liveLink": "https://expresskitchensandbath.com/",
@@ -77,7 +137,7 @@
     ]
   },
   {
-    "projectID": 2025022605,
+    "projectID": 2025022608,
     "keyword": "frontEnd",
     "name": "CliqClose",
     "client": "cliqclose.com",
@@ -98,13 +158,20 @@
     ]
   },
   {
-    "projectID": 2025022606,
+    "projectID": 2025022607,
     "keyword": "frontEnd",
     "name": "Go Sourcer",
     "client": "gosourcer.com",
     "description": "Go Sourcer is a platform that connects buyers and sellers of real estate. The website allows users to search for properties, view listings, and connect with real estate agents. Users can also create an account to save their favorite listings and receive notifications about new properties that match their criteria.",
     "contribution": "I updated theme and converted it for Go Sourcer",
-    "technology": ["Next", "React", "Bootstrap", "Sass", "Slick", "Lucide Icons"],
+    "technology": [
+      "Next",
+      "React",
+      "Bootstrap",
+      "Sass",
+      "Slick",
+      "Lucide Icons"
+    ],
     "category": "Front-End Development",
     "sourceCode": "",
     "liveLink": "https://gosourcer.com",
@@ -114,7 +181,7 @@
     ]
   },
   {
-    "projectID": 2025022607,
+    "projectID": 2025022606,
     "keyword": "frontEnd",
     "name": "X METAVERSE PRO",
     "client": "The X META Foundation",
@@ -137,7 +204,7 @@
     ]
   },
   {
-    "projectID": 2025022608,
+    "projectID": 2025022605,
     "keyword": "frontEnd",
     "name": "Dolares",
     "client": "Costablanca",
@@ -155,7 +222,7 @@
     ]
   },
   {
-    "projectID": 2025022609,
+    "projectID": 2025022604,
     "keyword": "frontEnd",
     "name": "Solbase AI",
     "client": "Solbase AI",
@@ -172,7 +239,7 @@
     ]
   },
   {
-    "projectID": 2025022610,
+    "projectID": 2025022603,
     "keyword": "frontEnd",
     "name": "GVI",
     "client": "GVI Company Limited",
@@ -190,7 +257,7 @@
     ]
   },
   {
-    "projectID": 2025022611,
+    "projectID": 2025022602,
     "keyword": "backEnd",
     "name": "RMS",
     "client": "own project",
@@ -198,7 +265,7 @@
     "contribution": "This project I build as my diploma thesis. I have learned Node on this project.",
     "technology": ["JavaScript", "Node", "MongoDB", "Axios"],
     "category": "Back-End Development",
-    "sourceCode": "https://github.com/mamorshedalam/rms-v1",
+    "sourceCode": "https://github.com/morshedalamdev/rms-v1",
     "liveLink": "https://rms-v1-ten.vercel.app/",
     "thumbnail": "https://res.cloudinary.com/mamorshedalam/image/upload/v1691491700/project/RMS/092527-jteeeh.png",
     "screenshot": [
@@ -208,7 +275,7 @@
     ]
   },
   {
-    "projectID": 2025022612,
+    "projectID": 2025022601,
     "keyword": "frontEnd",
     "name": "Bitakon",
     "client": "Abishek",

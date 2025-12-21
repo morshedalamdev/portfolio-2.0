@@ -44,11 +44,9 @@ export default function Project() {
                               {project.sourceCode && <a href={project.sourceCode} target="_blank" className="group flex items-center gap-3 mt-2"><span className="group-hover:text-[#e31c25] sl-animated-xl">Source Code</span> <svg className="w-4 fill-sky-50 group-hover:fill-[#e31c25] group-hover:ml-2 sl-animated-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg></a>}
                          </div>
                     </div>
-                    {project.category == "Web App" ? <div className="md:grid grid-cols-2 md:gap-6 md:space-y-0 xs:space-y-6 space-y-4">
+                    <div className="md:grid grid-cols-2 md:gap-6 md:space-y-0 xs:space-y-6 space-y-4">
                          {project.screenshot && project.screenshot.map((img, index) => (<img className="wow fadeInUp w-max" src={img} key={index} />))}
-                    </div> : <div className="md:space-y-9 xs:space-y-6 space-y-4">
-                         {project.screenshot && project.screenshot.map((img, index) => (<img className="wow fadeInUp" src={img} key={index} />))}
-                    </div>}
+                    </div>
                </div>
           </section>
      )

@@ -31,7 +31,8 @@ export default function Home() {
      const [count, setCount] = useState({
           frontEnd: 0,
           backEnd: 0,
-          fullStack: 0
+          fullStack: 0,
+          app: 0
      })
      const programArray = [
           { name: "Next", icon: nextIcon },
@@ -59,7 +60,7 @@ export default function Home() {
           { name: "Lightroom", icon: lrIcon },
      ];
      const experience = [
-          { designation: "Web Developer", company: "Fiverr", website: "fiverr.com/tech_infiny", duration: "2021 - Present", location: "Remote", keyword: ["JavaScript", "TypeScript", "Next", "React", "Alpine", "Node", "Firebase", "TailwindCSS", "MongoDB", "Sanity", "Figma"], description: "I have been working as a freelance developer since 2019 locally. After leaving Spinner Tech, I start working as a freelance developer on Fiverr. And get chance to work on various projects with various developers." },
+          { designation: "Web Developer", company: "Fiverr", website: "fiverr.com/tech_infiny", duration: "2021 - Present", location: "Remote", keyword: ["JavaScript", "TypeScript", "Next", "React", "Alpine", "Node", "Express", "PostgreSQL", "Firebase", "TailwindCSS", "MongoDB", "Sanity", "Figma"], description: "I have been working as a freelance developer since 2019 locally. After leaving Spinner Tech, I start working as a freelance developer on Fiverr. And get chance to work on various projects with various developers." },
           { designation: "Intern", company: "Bangladesh Railway", website: "railway.gov.bd", duration: "2021 - 2022", location: "Chattogram, Bangladesh", keyword: ["Networking", "CTC", "MS Office"], description: "It's part of my Diploma course. I learn how an organization works and manages manpower. I got the opportunity to lead a team during the training period. I also learn about communication networks and media over there." },
           { designation: "Web Designer", company: "Spinner Tech Ltd", website: "spinnertech.dev", duration: "2021 - 2021", location: "Chattogram, Bangladesh", keyword: ["JavaScript", "JQuery", "Bootstrap", "Photoshop"], description: "In Spinner Tech Ltd, I explore myself. And learn to work together in a team. I also learn to handle projects on an IT farm. I enjoyed my 3 months with some awesome projects and teammates." },
      ]
@@ -106,7 +107,7 @@ export default function Home() {
                               <p className="xl:text-xl sm:text-lg text-[#e31c25] cursor-pointer">// <span className="text-sky-50 opacity-70 hover:opacity-100">Full-Stack Developer</span> // <span className="text-sky-50 opacity-70 hover:opacity-100">Tech Learner</span> // <span className="text-sky-50 opacity-70 hover:opacity-100">JavaScript/TypeScript Expert</span></p>
                          </div>
                          <div className="wow fadeInRight sm:space-y-4 space-y-2">
-                              <p>I'm working as a Web Developer since 2019. I have developed a strong understanding of Web Development and related Technology. I always tried to think out of the box & bring something creative through Hard Work. And love working with Team.</p>
+                              <p>I been working as a Web Developer since 2019. I have developed a strong understanding of Web Development and related Technology. I always tried to think out of the box & bring something creative through Hard Work. And love working with Team.</p>
                               <p>My expertise in Web Develop Technologies also includes <i>responsive design, cross-browser compatibility, and SEO-optimised code.</i> I take pride in staying up-to-date with the latest trends and best practices in Web Development to ensure that I can deliver top-quality work to my Clients.</p>
                          </div>
                     </div>
@@ -120,7 +121,7 @@ export default function Home() {
                          </div>
                          <div className="wow fadeInUp sm:w-2/3 text-center mx-auto space-y-2">
                               <p>The main area of expertise is Website Development (Client/Server side).</p>
-                              <p>I'm well-versed in JavaScript and TypeScript and worked extensively with popular frameworks Next/React. I have also had a great deal of experience working with Node/Express and used databases like Postgre SQL, MongoDB and Firebase.</p>
+                              <p>I'm well-versed in JavaScript and TypeScript and worked extensively with popular frameworks Next/React. I have also had a great deal of experience working with Node/Express and used databases like PostgreSQL, MongoDB and Firebase.</p>
                               <p>Visit my <a href="https://www.linkedin.com/in/morshedalamdev" className="text-[#e31c25] hover:underline sl-animated-xl" target="_blank">Linkedin</a> for more details.</p>
                          </div>
                          <div className="md:space-y-6">
@@ -161,11 +162,12 @@ export default function Home() {
                               <li><button onClick={() => { filterProject("frontEnd") }} className="group relative text-[#e31c25] cursor-pointer"><span className="absolute -top-3 -right-3 text-sm text-[#e31c25] opacity-70  group-hover:opacity-100 sl-animated-xl">{count.frontEnd && count.frontEnd < 9 ? `0${count.frontEnd}` : count.frontEnd}</span>// <span className="text-sky-50 opacity-70 group-hover:opacity-100 sl-animated-xl">Front-End</span></button></li>
                               <li><button onClick={() => { filterProject("backEnd") }} className="group relative text-[#e31c25] cursor-pointer"><span className="absolute -top-3 -right-3 text-sm text-[#e31c25] opacity-70  group-hover:opacity-100 sl-animated-xl">{count.backEnd && count.backEnd < 9 ? `0${count.backEnd}` : count.backEnd}</span>// <span className="text-sky-50 opacity-70 hover:opacity-100 sl-animated-xl">Back-End</span></button></li>
                               <li><button onClick={() => { filterProject("fullStack") }} className="group relative text-[#e31c25] cursor-pointer"><span className="absolute -top-3 -right-3 text-sm text-[#e31c25] opacity-70  group-hover:opacity-100 sl-animated-xl">{count.fullStack && count.fullStack < 9 ? `0${count.fullStack}` : count.fullStack}</span>// <span className="text-sky-50 opacity-70 hover:opacity-100 sl-animated-xl">Full-Stack</span></button></li>
+                              <li><button onClick={() => { filterProject("app") }} className="group relative text-[#e31c25] cursor-pointer"><span className="absolute -top-3 -right-3 text-sm text-[#e31c25] opacity-70  group-hover:opacity-100 sl-animated-xl">{count.app && count.app < 9 ? `0${count.app}` : count.app}</span>// <span className="text-sky-50 opacity-70 hover:opacity-100 sl-animated-xl">Mobile App</span></button></li>
                          </ul>
                          <div className="flex flex-wrap justify-center">
                               {filterArray && filterArray.map((project, index) => (
                                    <Link to={`project/${project.projectID}`} key={index} className="wow fadeInUp group lg:w-1/3 md:w-1/2 md:px-4 mb-6">
-                                        <div className="overflow-hidden rounded-t">{project.category == "Web App" ? <img src={project.thumbnail} alt="" className="xl:h-60 lg:h-40 md:h-60 w-fit mx-auto group-hover:scale-110 sl-animated-xl" /> : <img src={project.thumbnail} alt="" className="xl:h-60 lg:h-40 md:h-60 w-full group-hover:scale-110 sl-animated-xl" />}</div>
+                                        <div className="overflow-hidden rounded-t"><img src={project.thumbnail} alt="" className="xl:h-60 lg:h-40 md:h-60 w-fit mx-auto group-hover:scale-110 sl-animated-xl" /></div>
                                         <div className="bg-neutral-800 rounded-b xl:px-9 sm:px-6 px-4 xl:py-6 sm:py-4 py-2">
                                              <h3 className="font-bold xl:text-2xl text-xl">{project.name}</h3>
                                              <div className="relative h-6">
@@ -191,7 +193,7 @@ export default function Home() {
                                    <div className="bg-neutral-700 rounded space-y-2 py-3 sm:px-6 px-4">
                                         <h3 className="xl:text-xl md:text-lg">Computer Science & Technology</h3>
                                         <h4 className="text-[#e31c25]">// <span className="text-sky-50 opacity-70">Wuhan Institute of Technology, China</span></h4>
-                                        <p className="flex justify-between opacity-70"><span>2023 - 2027</span><span>Running</span></p>
+                                        <p className="flex justify-between opacity-70"><span>2023 - 2026</span><span>Running</span></p>
                                    </div>
                               </div>
                               <div className="wow fadeInUp lg:w-1/3 md:w-1/2 w-full font-semibold px-2 mb-6">
