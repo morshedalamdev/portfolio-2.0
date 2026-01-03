@@ -39,7 +39,6 @@ export default function RootLayout() {
                     </nav>
                     <button onClick={() => { show ? setShow(false) : setShow(true) }} className="lg:hidden block"><img src={menuIcon} alt="" className="xs:scale-100 scale-90" /></button>
                </header>
-ß
                <main className="relative">
                     <Outlet />
                </main>
